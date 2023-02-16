@@ -18,6 +18,6 @@ return 0;
 }
 OUTPUT-
 enter a number:
-217
+20
 factors of a given number are :
-1	7	31	217	
+1	2	4	5      10      20
