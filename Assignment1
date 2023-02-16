@@ -11,7 +11,7 @@ for(i=1;i<=num;i++)
 {
 if(num%i==0)
 {
-printf("%d\n",i);
+printf("%d\t",i);
 }
 }
 return 0;
@@ -20,7 +20,4 @@ OUTPUT-
 enter a number:
 217
 factors of a given number are :
-1
-7
-31
-217
+1	7	31	217	
