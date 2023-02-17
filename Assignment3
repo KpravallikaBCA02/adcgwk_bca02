@@ -15,5 +15,3 @@ int main()
   int y=5;
   printf("%d\n",power(x,y));
 }
-OUTPUT:
-32
