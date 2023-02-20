@@ -1,0 +1,22 @@
+/*Program to find lowest among n numbers*/
+PROGRAM-
+#include<stdio.h>
+int main()
+{
+	 int n, i, num, sm;
+	 scanf("%d",&n);
+	 scanf("%d", &num);
+	 sm = num;
+	 i=2;
+	 while(i<=n)
+	 {
+	  scanf("%d", &num);
+	  if(num < sm)
+	  {
+	   sm = num;
+	  }
+	  i++;
+	 }
+	 printf("\tLowest is %d", sm);
+	 return(0);
+}
