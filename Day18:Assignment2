@@ -1,5 +1,5 @@
 /*Program to print given number is Armstrong number or not*/
-OUTPUT-
+PROGRAM-
 #include<stdio.h>  
 int main()    
 {    
