@@ -1,0 +1,39 @@
+/*C program to count special and lowercase 
+
+characters in a string.*/
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main()
+
+{
+
+    char str[100];
+
+    int countL=0, special=0;
+
+    int counter;
+
+    printf("Enter a string: ");
+
+    gets(str);
+
+    for (counter = 0; str[counter] != NULL; counter++)
+
+    {
+
+        if(str[counter] >= 'a' && str[counter] <= 'z')
+
+            countL++;
+
+        else if(special++);
+
+    }
+
+    printf("Special characters: %d\nLower Case characters: %d", special, countL);
+
+    return 0;
+
+}
